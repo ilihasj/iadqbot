@@ -113,7 +113,7 @@ class StdOutListener(StreamListener):
 
                 text = html.unescape(text)
 
-                embed = Embed(colour=random.choice(colors),
+                embed = Embed(colour=0x454B54,
                               url='https://twitter.com/{}/status/{}'.format(data['user']['screen_name'],
                                                                             data['id_str']),
                               title=data['user']['name'],
